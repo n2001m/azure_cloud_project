@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "nycProjectFactory"
+		},
+		"ls_db_2021_connectionString": {
+			"value": ""
+		},
+		"ls_dlsyn_accountKey": {
+			"value": ""
+		},
+		"ls_ds_data_accountKey": {
+			"value": ""
+		},
+		"ls_syn_accountKey": {
+			"value": ""
+		},
+		"ls_dlsyn_properties_typeProperties_url": {
+			"value": "https://dlnycsyn.dfs.core.windows.net/"
+		},
+		"ls_ds_data_properties_typeProperties_url": {
+			"value": "https://nycproj.dfs.core.windows.net/"
+		},
+		"ls_syn_properties_typeProperties_url": {
+			"value": "https://synstorge.dfs.core.windows.net/"
+		}
+	}
+}
