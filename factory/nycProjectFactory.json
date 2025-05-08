@@ -1,0 +1,9 @@
+{
+	"name": "nycProjectFactory",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ce54fdd0-b260-413e-97ea-b88df8d3a88b",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
